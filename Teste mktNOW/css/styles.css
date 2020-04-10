@@ -4,3 +4,40 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.first-section {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.second-section .titulo-section {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.second-section-table {
+    width: 90%;
+} 
+
+.second-section-table tr {
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.second-section .second-section-table td svg, .second-section .second-section-table td i{
+    
+    font-size: 20px;
+    padding-right: 10px 10px;
+    
+}
+
+.footer {
+    height: 500px;
+}
