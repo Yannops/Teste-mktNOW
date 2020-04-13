@@ -41,3 +41,22 @@ body {
 .footer {
     height: 500px;
 }
+
+.btn {
+    color: white;
+    width:395px;
+    height: 90px;
+    position: absolute;
+    top: 340px;
+    left: 90px;
+    background-color: black;
+    z-index: 10;
+    background-image: linear-gradient(to left, grey, black);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1s;
+}
+
+.btn:hover {
+    background-position: right;
+}

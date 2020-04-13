@@ -18,7 +18,7 @@
 <body>
 	<section class="first-section">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<img src="../assets/logo.png" alt="Logo Site" />
+			<a class="navbar-brand h1 mb-0" href="#"><img src="../assets/logo.png" alt="Logo Site" /></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -57,8 +57,7 @@
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 			</ol>
 			<div class="carousel-inner">
-				<button type="button" class="btn btn-outline-dark w-25 h-25"
-					style="position: absolute; z-index: 10; top: 70%; left: 8%;" onclick="">CHAMAR API SWAPI</button>
+				<button type="button" class="btn" onclick="">CHAMAR API SWAPI</button>
 				<div class="carousel-item active">
 					<img src="../assets/banner_1.png" class="d-block w-100" alt="banner_1">
 				</div>
@@ -79,16 +78,27 @@
 		</div>
 	</section>
 	<section class="second-section">
-		<br/>
+		<br />
 		<p class="titulo-section">explore sonoma</p>
-		<table class="second-section-table">
-			<tr>
-				<td><svg class="bi bi-x-square-fill text-success" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-					<path fill-rule="evenodd" d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm9.854 4.854a.5.5 0 00-.708-.708L8 7.293 4.854 4.146a.5.5 0 10-.708.708L7.293 8l-3.147 3.146a.5.5 0 00.708.708L8 8.707l3.146 3.147a.5.5 0 00.708-.708L8.707 8l3.147-3.146z" clip-rule="evenodd"/>
-				  </svg>vinhos</td>
-				<td><i class="fa fa-plus-square" style="font-size: 20px; color: red;"></i>acessórios</td>
-			</tr>
-		</table>
+		<div class="content">
+			<table class="second-section-table">
+				<thead>
+					<tr>
+						<th>
+							<svg class="bi bi-x-square-fill text-success" width="1em" height="1em" viewBox="0 0 16 16"
+								fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd"
+									d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm9.854 4.854a.5.5 0 00-.708-.708L8 7.293 4.854 4.146a.5.5 0 10-.708.708L7.293 8l-3.147 3.146a.5.5 0 00.708.708L8 8.707l3.146 3.147a.5.5 0 00.708-.708L8.707 8l3.147-3.146z"
+									clip-rule="evenodd" />
+							</svg>vinhos
+						</th>
+						<th>
+							<i class="fa fa-plus-square" style="font-size: 20px; color: red;"></i>acessórios
+						</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
 	</section>
 	<footer class="footer">
 		oi
