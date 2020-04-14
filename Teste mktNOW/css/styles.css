@@ -5,8 +5,9 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
+    font-family: sans-serif;
 }
 
 .first-section {
@@ -16,25 +17,65 @@ body {
 
 .second-section .titulo-section {
     font-size: 25px;
-    font-family: sans-serif;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
 }
 
 .second-section-table {
-    width: 90%;
-} 
-
-.second-section-table tr {
-    border: 1px solid black;
-    justify-content: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
 }
 
-.second-section .second-section-table td svg, .second-section .second-section-table td i{
-    font-size: 20px;
-    padding-right: 10px 10px;
-    
+.second-section-table i {
+    padding: 4px;
+    margin-right: 7px;
+    font-size: 20px; 
+    color: red;
+}
+
+.second-section-table th {
+    padding: 3px;
+}
+
+.second-section-table a {
+    outline: none;
+    color: rgba(95, 95, 95, 0.9);
+}
+
+.second-section-table .firstcontent a:hover, .second-section-table a:hover {
+    text-decoration: none;
+}
+
+.second-section-table tbody {
+    border: 1px solid rgba(138, 138, 138, 0.9);
+    text-align: left;
+}
+
+.second-section-table tbody td {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.second-section-table tbody td p {
+    font-size: 12px;
+    color: rgba(95, 95, 95, 0.9);
+    text-transform: capitalize;
+}
+
+.second-section-table th {
+    border: 1px solid rgba(138, 138, 138, 0.9);
+}
+
+.second-section-table #first-content {
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.content .second-section-table th {
+    text-transform: uppercase;
 }
 
 .footer {
