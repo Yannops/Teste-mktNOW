@@ -86,7 +86,51 @@ body {
 }
 
 .footer {
-    height: 500px;
+    height: auto;
+    width: 100%;
+}
+
+.footer div {
+    padding-top: 30px;
+}
+
+.footer-title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-content {
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.6);
+}
+
+#first-footer-content {
+    width: 20%;
+    display: inline-block;
+}
+
+#second-footer-content {
+    width: 20%;
+    display: inline-block;
+}
+
+#third-footer-content {
+    width: 20%;
+    display: inline-block;
+}
+
+#fourth-footer-content {
+    width: 10%;
+    display: inline-block;
+}
+
+#fifth-footer-content {
+    width: 10%;
+    display: inline-block;
+}
+
+#sixth-footer-content {
+    width: 20%;
 }
 
 .btn {
