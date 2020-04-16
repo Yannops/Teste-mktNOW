@@ -90,47 +90,67 @@ body {
     width: 100%;
 }
 
+.footer-menu {
+    display: flex;
+}
+
 .footer div {
-    padding-top: 30px;
+    padding: 30px 0 30px 2px;
+    justify-content: space-between;
 }
 
 .footer-title {
     font-size: 16px;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .footer-content {
     font-size: 12px;
-    color: rgba(128, 128, 128, 0.6);
+    color: rgba(128, 128, 128, 0.8);
+    text-transform: initial;
 }
 
 #first-footer-content {
-    width: 20%;
-    display: inline-block;
+    width: 30%;
 }
 
 #second-footer-content {
-    width: 20%;
-    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
 }
 
 #third-footer-content {
     width: 20%;
-    display: inline-block;
+    margin-left: 80px;
 }
 
 #fourth-footer-content {
-    width: 10%;
-    display: inline-block;
+    width: 20%;
+    margin-left: 140px;
 }
 
 #fifth-footer-content {
-    width: 10%;
-    display: inline-block;
+    width: 30%;
+    padding-left: 300px;
 }
 
 #sixth-footer-content {
     width: 20%;
+    position: relative;
+    top: 160px;
+    right: 110px;
+    height: 100px;
+}
+
+#seventh-footer-content {
+    position: absolute;
+    bottom: -540px;
+    right: 100px;
+}
+
+.footer-menu i {
+    font-size: 20px;
 }
 
 .btn {
@@ -150,4 +170,11 @@ body {
 
 .btn:hover {
     background-position: right;
+}
+
+#second-btn {
+    padding: 6px 3px;
+    border-radius: 10%;
+    height: auto;
+    width: auto;    
 }
