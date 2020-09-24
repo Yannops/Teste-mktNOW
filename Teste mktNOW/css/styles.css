@@ -155,13 +155,12 @@ body {
 
 .btn {
     color: white;
-    width:395px;
-    height: 90px;
+    width: 400px;
+    height: 80px;
     position: absolute;
-    top: 340px;
-    left: 90px;
+    left: -6em;
+    bottom: 1em;
     background-color: black;
-    z-index: 10;
     background-image: linear-gradient(to left, grey, black);
     background-size: 400%;
     background-position: left;
